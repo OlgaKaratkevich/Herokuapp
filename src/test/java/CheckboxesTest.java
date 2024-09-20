@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import static org.testng.Assert.assertEquals;
 
 public class CheckboxesTest extends BaseTest{
-    String url = "https://the-internet.herokuapp.com/checkboxes";
+    private String url = "https://the-internet.herokuapp.com/checkboxes";
     @Test
     public void checkboxes(){
         driver.get(url);

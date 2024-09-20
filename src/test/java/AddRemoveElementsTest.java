@@ -8,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 
 public class AddRemoveElementsTest extends BaseTest {
 
-    String deleteButtonLocator = "[onclick='deleteElement()']";
+   private String deleteButtonLocator = "[onclick='deleteElement()']";
 
 @Test
     public void addRemoveElements(){

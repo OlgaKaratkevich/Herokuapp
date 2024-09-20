@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class FormAuthenticationTest extends BaseTest{
-    String username = "tomsmith";
-    String password = "SuperSecretPassword!";
-    String url = "https://the-internet.herokuapp.com/login";
+    private String username = "tomsmith";
+    private String password = "SuperSecretPassword!";
+    private String url = "https://the-internet.herokuapp.com/login";
     @Test
     public void shouldLogInWhenEnteringValidDataInBothFields(){
         driver.get(url);
